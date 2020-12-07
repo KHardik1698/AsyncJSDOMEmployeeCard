@@ -1,0 +1,34 @@
+#root {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+.employee-card {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.employee-image {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.employee-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
