@@ -4,6 +4,5 @@ const url =
 // immediately invoked function expression IIFE
 export const data = (async () => {
   let response = await axios.get(url);
-  console.log(response.data);
   return response.data;
 })();
