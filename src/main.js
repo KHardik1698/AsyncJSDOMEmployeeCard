@@ -12,3 +12,10 @@ data.then((employees) => {
 
 document.getElementById("header").appendChild(renderHeader());
 document.getElementById("footer").appendChild(renderFooter());
+
+document.getElementById("page-header").innerHTML = `
+<div class="red-line"></div>
+<div class="title">
+  <h1>Our Team</h1>
+</div>
+`;
