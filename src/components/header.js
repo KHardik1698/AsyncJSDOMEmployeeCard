@@ -13,22 +13,13 @@ export const renderHeader = () => {
   <div class="nav-container">
     <ul>
       <li class="nav-items">
-        <a href="" class="nav-links">What we do</a>
+        <a href="" class="nav-links">Home</a>
       </li>
       <li class="nav-items">
-        <a href="" class="nav-links">Our work</a>
-      </li>
-      <li class="nav-items">
-        <a href="" class="nav-links">Who we are</a>
-      </li>
-      <li class="nav-items">
-        <a href="" class="nav-links">Blog</a>
+        <a href="index.html" class="nav-links">Our Team</a>
       </li>
       <li class="nav-items">
         <a href="" class="nav-links">Careers</a>
-      </li>
-      <li class="nav-items blue-button">
-        <a href="" class="nav-links">Contact</a>
       </li>
     </ul>
   </div>
