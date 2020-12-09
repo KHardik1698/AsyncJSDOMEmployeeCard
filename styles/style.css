@@ -90,6 +90,64 @@ html {
   color: white;
 }
 
+.footer-container {
+  background-color: black;
+  color: white;
+  display: grid;
+}
+.footer-description {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
+  font-size: 5vh;
+  font-weight: 700;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.blue-button {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 3vh;
+  background-color: #2f9ee5;
+  border-radius: 1.5rem;
+  padding: 10px 30px;
+  display: inline;
+  margin: none;
+  justify-self: center;
+}
+.blue-button a {
+  text-decoration: none;
+  color: white;
+}
+.footer-icons {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin: 5vh 0px;
+  margin-right: 3vh;
+  justify-self: right;
+}
+.footer-icons i {
+  padding: 3vh;
+  font-size: 3vh;
+}
+.copyright {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin: 10vh 0px;
+  margin-left: 10vh;
+  justify-self: left;
+  align-self: center;
+}
+.copyright a {
+  text-decoration: none;
+  color: white;
+  padding-right: 3vh;
+}
+.copyright img {
+  width: 10vh;
+}
+
 @media (max-width: 768px) {
   .logo-container {
     justify-self: left;
@@ -100,6 +158,31 @@ html {
   .hamburger {
     display: inline;
   }
+  .footer-description {
+    font-size: 3vw;
+  }
+  .blue-button {
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+  }
+  .footer-icons {
+    grid-row: 3/4;
+    justify-self: center;
+  }
+  .footer-icons i {
+    padding: 3vw;
+    font-size: 3vh;
+  }
+  .copyright {
+    grid-row: 4/5;
+    font-size: 3vw;
+    margin: 3vw;
+    margin-bottom: 10vw;
+    justify-self: center;
+  }
+  .copyright img {
+    width: 10vw;
+  }
 }
 
 @media (max-width: 260px) {
@@ -108,5 +191,23 @@ html {
   }
   .hamburger {
     font-size: 5vw;
+  }
+  .footer-description {
+    margin: 0px;
+    margin-top: 3vh;
+  }
+  .footer-icons {
+    margin: 0px;
+  }
+  .footer-icons i {
+    font-size: 5vw;
+  }
+  .copyright {
+    margin: 0px;
+    margin-bottom: 10vw;
+  }
+  .copyright a {
+    display: block;
+    padding: 0px;
   }
 }

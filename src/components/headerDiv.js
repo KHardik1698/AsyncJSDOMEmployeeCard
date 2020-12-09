@@ -21,6 +21,9 @@ export const renderHeader = () => {
       <li class="nav-items">
         <a href="" class="nav-links">Careers</a>
       </li>
+      <li class="nav-items blue-button">
+        <a href="" class="nav-links">Contact</a>
+      </li>
     </ul>
   </div>
   <div class="hamburger">
